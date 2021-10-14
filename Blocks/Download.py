@@ -125,7 +125,7 @@ def download_pin(browser,searchName,count,totalImgs,destDir,hashes):
 searchName = input('What are you looking for?')
 totalImgs = int(input('How many images do you want?'))
 destDir = sys.argv[1]+searchName+'/'
-langs = ["en"] #,"ja","zh-CN","ko","de","pt","ro","vi"
+langs = ["en","ja","zh-CN","ko"] #,"ja","zh-CN","ko","de","pt","ro","vi"
 count = 0
 hashes = set({})
 
